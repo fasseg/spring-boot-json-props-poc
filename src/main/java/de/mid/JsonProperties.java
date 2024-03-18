@@ -16,8 +16,6 @@ import java.util.List;
 public class JsonProperties {
     private List<SpaceConfiguration> spaces;
 
-    private String foo;
-
     private String data;
 
     @PostConstruct
@@ -30,20 +28,12 @@ public class JsonProperties {
         }
     }
 
-    public void setFoo(final String foo) {
-        this.foo = foo;
-    }
-
     public void setData(final String data) {
         this.data = data;
     }
 
     public List<SpaceConfiguration> getSpaces() {
         return spaces;
-    }
-
-    public String getFoo() {
-        return foo;
     }
 
     public String getData() {
