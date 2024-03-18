@@ -1,0 +1,2 @@
+json.foo: bar
+json.data: '[{"name": "foo", "title": "bar", "key": "1"},{"name": "baz", "title": "qux", "key": "2"}]'
